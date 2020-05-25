@@ -1,0 +1,61 @@
+/* css for nav bar from w3 schools example*/
+@import url('https://fonts.googleapis.com/css?family=Spartan:600&display=swap');
+.navbar {
+font-family: 'Spartan', sans-serif;
+width: 98%;
+background-color: #da829f;
+overflow: auto;
+padding: 10px;
+border-radius:5px; 
+}
+
+.navbar a {
+float: left;
+text-align: center;
+padding: 20px 10px 0px 10px;
+color: white;
+margin: auto 0;
+padding-bottom: 0;
+text-decoration: none;
+font-size: 17px;
+}
+
+.navbar a:hover {
+background-color:  #cdd963;
+ padding: 15px;
+ border:#adcf61 dashed 2px;
+border-radius:15px; 
+}
+
+.active {
+background-color: #876fa1;
+}
+.sel{
+    padding: 1px 3px;
+    color: white;
+    margin:10 10 0;
+    text-align: center;
+    position: justified;
+}
+
+@media screen and (max-width: 500px) {
+.navbar a {
+    float: left;
+    display: block;
+}
+}
+#acc, #log{
+    float: right;
+}
+#form{
+    text-align: center;
+}
+.search{
+    text-align: left;
+    align-content: center;
+    border: #d65d8b dashed 4px;
+    background-color: white;
+    width: 97%;
+    margin: 0;
+    padding: 10px;
+}

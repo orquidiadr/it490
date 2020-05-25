@@ -1,0 +1,18 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="navbar">
+  <a class="active" href="../frontend/index.php"><i class="fa fa-fw fa-home"></i> Home</a>
+  <form action="../backend/search.php" method="post">
+                <select name="type" id="type"> 
+                    <option value="recipes" name="recipes"> ALL RECIPES
+                    <option value="fruit" name="fruit"> FRUIT
+                    <option value="veggies" name="veggies"> VEGGIES
+                    <option value="protein" name="protein"> PROTEIN
+                    <option value="base" name="base"> BASE
+                </select>
+            <input type="text" name="search_query">
+            <input type="submit" name="search" value="SEARCH">
+        </form>
+  <a href="../frontend/myaccount.php"><i class="fa fa-fw fa-envelope"></i> My Account</a>
+  <a href="../frontend/logout.php"><i class="fa fa-fw fa-user"></i> Log Out</a>
+</div>

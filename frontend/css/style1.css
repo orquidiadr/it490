@@ -1,0 +1,93 @@
+/**{
+    margin: 0;
+    padding: 0;
+}*/
+
+.data {
+	
+/*	padding: 70px;
+	top: 80%;
+        left: 10%;*/
+    /*	border:#ced962 dashed 3px;
+    	background: white;
+	position:fixed;
+	top:15%;
+	margin:30% 30%;
+	width:50%;
+	centre:0%;*/
+    top: auto;
+	float: left;
+	width: 33.33%;
+        border:#ced962 dashed 3px;
+        background-color: #ffffff;
+        border-radius:5px;
+	padding: 40px 40px 40px 40px;
+        margin:30 30;
+	color: tomato;
+	
+
+}
+
+/*
+.rate {
+
+  position: static;
+  left: 300px;
+  width: 200px;
+  height: 120px;
+  border: 3px solid red;
+}
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 5px;
+    left: 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}*/
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}

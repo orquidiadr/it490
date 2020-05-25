@@ -1,0 +1,81 @@
+article, aside, figcaption, figure, footer, header, main, nac, section {
+    display: block;
+}
+
+address , artical, aside, blockqoute, body, cite, div, dl, dt, dd, em, figcaption, figure, footer, h1, h2, h3, h4, h5, h6, header, html, img, li, main, nav, ol, p, section, span, ul 
+{
+    background: transparent;
+    font-size: 100%;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+/* body style*/
+
+html {
+   background-color: #ffb3b3;
+   font-family: Verdana, Geneva, Arial, sans-serif; 	
+}
+body {
+    line-height: 1;
+    background-color: #ffe6e6; 
+}
+body {
+    width: 100%;
+    max-width: 3000px;
+    min-height: 1000px;
+    margin: auto;
+}
+body header img {
+    width: 100%;
+    display: block;
+}
+header nav li:first-of-type {
+    float: left;
+}
+header nav li {
+    float: left;
+    width: 16.67%;
+}
+
+header a {
+    display: block;
+    text-align: center;
+}
+
+
+/* Horizontal Navigation Styles */
+
+nav.horizontalNavigation a {
+   background-color: #ff8080;
+   font-family: Champagne, cursive;
+   font-size: 1.4em;
+   line-height: 1.8em;
+   text-align: center;
+}  
+
+nav.horizontalNavigation a:link, 
+nav.horizontalNavigation a:visited {
+   color: rgb(239, 220, 156);
+}
+
+nav.horizontalNavigation a:hover, 
+nav.horizontalNavigation a:active {
+   background-color: #ff8080;
+}   
+
+/* Contact Info Styles for header*/
+
+.contact a:hover{
+        font-size: 25px;
+        color: red;
+        text-decoration: underline;}

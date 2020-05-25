@@ -1,0 +1,12 @@
+syntax corrections -- off VM
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch joanna
+# Your branch is up to date with 'origin/joanna'.
+#
+# Changes to be committed:
+#	new file:   backend/.md_server.php.swp
+#	modified:   backend/md_server.php
+#

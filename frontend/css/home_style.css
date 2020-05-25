@@ -1,0 +1,199 @@
+/* Horizontal Navigation Styles */
+
+nav.horizontalNavigation a {
+   background-color: #ff8080;
+   font-family: Champagne, cursive;
+   font-size: 1.4em;
+   line-height: 1.8em;
+   text-align: center;
+}  
+
+nav.horizontalNavigation a:link, 
+nav.horizontalNavigation a:visited {
+   color: rgb(239, 220, 156);
+}
+
+nav.horizontalNavigation a:hover, 
+nav.horizontalNavigation a:active {
+   background-color: #ff8080;
+}   
+
+/* Contact Info Styles for header*/
+
+.contact a:hover{
+        font-size: 25px;
+        color: red;
+        text-decoration: underline;}
+
+/* Left Column Styles */
+
+#leftColumn {
+    clear: left;
+    width: 50%;
+    float: left;
+    padding: 1.5em;
+}
+#leftColumn img {
+    display: block;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+section#leftColumn p {
+   color: #ff0000;
+   font-size: 1em;
+   line-height: 1.6em;
+}
+section#leftColumn p1 {
+   color: #996699;
+   font-size: 0.8em;
+   line-height: 1.6em;
+}
+
+#leftColumn h2,p {
+    color: black;
+}
+
+#leftColumn .horizontalNavigation li {
+    width: 25%;
+    float: left;
+}
+
+#leftColumn .horizontalNavigation a {
+    display: block;
+    text-align: center;
+}
+#leftColumn .feelings img {
+    max-height: 250px;
+    max-width: 250px;
+    padding-top: 1.5em;
+}
+#leftColumn .feelings h2 {
+    text-align: right;
+    color: #996699;
+}
+/* Right Column Paragraph Styles */
+
+section#rightColumn p {
+   color: #ff0000;
+   font-size: 1em;
+   line-height: 1.6em;
+}
+section#rightColumn p1 {
+   color: #996699;
+   font-size: 0.8em;
+   line-height: 1.6em;
+}
+
+#rightColumn {
+    width: 50%;
+    float: left;
+    padding: 1.5em;
+}
+
+#rightColumn img {
+    display: block;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+#rightColumn h2,p {
+    color: black;
+}
+
+#rightColumn .horizontalNavigation li {
+    width: 25%;
+    float: left;
+}
+
+#rightColumn .horizontalNavigation a {
+    display: block;
+    text-align: center;
+}
+#rightColumn .feelings img {
+    max-height: 250px;
+    max-width: 250px;
+    padding-top: 1.5em;
+}
+#rightColumn .feelings h2 {
+    text-align: right;
+    color: #996699;
+}
+
+div[class^="col-"] {
+    float: left;
+}
+.col-1-2 {
+    width: 50%;
+}
+.col-1-2 h2{
+    padding-top: 3em;
+}
+.col-1-2 #button1 {
+    background-color: yellow;
+    font-family: bold;
+    font-size: 20px;
+}
+.col-1-2 #button2{
+    background-color: red;
+    font-family: bold;
+    font-size: 20px;
+}
+
+/* Footer Styles */
+
+body > footer {
+   font-size: 0.9em;
+   color: #9999ff;
+}
+
+body > footer h1 {
+   color: rgb(248, 248, 186);
+   font-size: 1.1em;
+   font-weight: normal;
+   letter-spacing: 0.2em;
+   margin: 1em 0 0.5em 1em;
+}
+
+footer {
+    clear: left;
+    background-color: #ff8080;
+}
+
+.verticalNavigation {
+    float: left;
+    width: 22%;
+}
+
+#contactInfo {
+    float: left;
+    width: 34%;
+}
+
+footer::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+section#contactInfo p {
+   line-height: 1.4em;
+   margin: 1em;
+}  
+
+/* Vertical Navigation Styles */
+
+nav.verticalNavigation ul {
+   margin-left: 1em;
+   line-height: 2em;
+}
+
+nav.verticalNavigation a:link, 
+nav.verticalNavigation a:visited {
+   color: rgb(248, 248, 186);
+}
+
+nav.verticalNavigation a:hover, 
+nav.verticalNavigation a:active {
+   text-decoration: underline;
+}
+

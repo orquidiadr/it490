@@ -1,0 +1,23 @@
+article, aside, figcaption, figure, footer, header, main, nac, section {
+    display: block;
+}
+
+address , artical, aside, blockqoute, body, cite, div, dl, dt, dd, em, figcaption, figure, footer, h1, h2, h3, h4, h5, h6, header, html, img, li, main, nav, ol, p, section, span, ul 
+{
+    background: transparent;
+    font-size: 100%;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+body {
+    line-height: 1;
+}
